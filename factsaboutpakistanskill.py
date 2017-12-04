@@ -184,7 +184,7 @@ def renderTemplate(content):
                     "type": "Hint",
                     "hint": {
                         "type": "PlainText",
-                        "text": "tell me something interesting about Pakistan"
+                        "text": "ask facts about pakistan another one"
                     }
                 }
                 ],
@@ -245,7 +245,7 @@ def get_fact_about_pakistan(intent, session, context):
     factIndex = random.randint(-1, 25)
     randomFact = facts[factIndex]
     speech_output = randomFact
-    should_end_session = False
+    should_end_session = True
     factImage = getfactImage(factIndex)
 
     if hasDisplay(context) is True:
