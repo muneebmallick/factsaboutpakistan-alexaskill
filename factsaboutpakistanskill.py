@@ -184,7 +184,7 @@ def renderTemplate(content):
                     "type": "Hint",
                     "hint": {
                         "type": "PlainText",
-                        "text": "ask facts about pakistan another one"
+                        "text": "ask pakistani facts another one"
                     }
                 }
                 ],
